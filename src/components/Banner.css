@@ -1,0 +1,113 @@
+.banner {
+  position: relative;
+  height: 576px;
+  color: white;
+  object-fit: contain;
+}
+
+.banner__name {
+  margin-top: -130.46px;
+  margin-left: 30px;
+}
+
+.banner__contents {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 200px;
+}
+
+.banner__release {
+  width: 333px;
+  height: 31px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  margin-top: -114.21px;
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+.banner__description {
+  width: 424px;
+  height: 84px;
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.banner__fadeBottom {
+  height: 15rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.banner__button__play {
+  position: absolute;
+  width: 100px;
+  height: 38px;
+  display: flex;
+  background: #ed2517;
+  margin-left: 31px;
+  margin-top: 22px;
+}
+
+.play {
+  width: 35px;
+  height: 17px;
+  margin-top: 11px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.play__logo {
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 9.79px;
+}
+
+.my__list {
+  margin-left: 141px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.banner__buttons {
+  margin-top: 20px;
+}
+
+.banner__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner__button:hover {
+  color: #fff;
+  background-color: #ed2517;
+  transition: all 0.2s;
+}

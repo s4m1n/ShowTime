@@ -3,7 +3,7 @@ import "./HomeScreen.css";
 import Nav from "./Nav";
 import Row from "./Row";
 import Banner from "./Banner";
-import requests from "./Requests";
+import requests from "../api/Requests";
 
 function HomeScreen() {
   return (
