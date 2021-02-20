@@ -21,7 +21,7 @@
 }
 
 .nav__logo {
-  margin-top: 9px;
+  margin-top: 13px;
   margin-left: 48px;
 }
 
@@ -41,26 +41,116 @@
 
 .home {
   margin-left: 50px;
-  margin-top: 19px;
+  margin-top: 21px;
   margin-right: 35px;
 }
 
+.red__line {
+  position: absolute;
+  width: 49px;
+  height: 2px;
+  left: 232px;
+  top: 47px;
+
+  background: #ed2517;
+}
+
 .movies {
-  margin-top: 19px;
+  margin-top: 21px;
   margin-right: 35px;
 }
 
 .shows {
-  margin-top: 19px;
+  margin-top: 21px;
   margin-right: 35px;
 }
 
 .new {
-  margin-top: 19px;
+  margin-top: 21px;
   margin-right: 35px;
 }
 
 .mylist {
-  margin-top: 19px;
+  margin-top: 21px;
   margin-right: 35px;
+}
+
+.nav__end__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  width: 214px;
+  height: 32px;
+  margin-right: 24.5px;
+  margin-top: 19px;
+  background: #ffffff;
+  border: 1px solid #0b0303;
+  box-sizing: border-box;
+}
+
+.search__input {
+  height: 19px;
+  margin-top: 6px;
+  margin-left: -21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #676767;
+  border: none;
+}
+
+.search__icon__container {
+  margin-top: -21px;
+  margin-left: 189.17px;
+}
+
+img.search__icon {
+  width: 12.83px;
+  height: 12.83px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.notification {
+  margin-top: 19px;
+  margin-right: 20.29px;
+}
+
+.notification__logo {
+  width: 28px;
+  height: 32px;
+}
+
+.user__logo {
+  margin-top: 17.88px;
+  margin-right: 2.58px;
+}
+
+.profile {
+  width: 41px;
+  height: 14px;
+  margin-top: 27px;
+  margin-right: 7.54px;
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #0b0303;
+}
+
+.profile__dropdown {
+  margin-top: 21.39px;
+  margin-right: 48.79px;
+}
+
+.down__arrow {
+  width: 10.67px;
+  height: 5.39px;
 }
