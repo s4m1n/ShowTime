@@ -8,7 +8,7 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.fetchMovies);
+      const request = await axios.get(requests.fetchMovie);
       const movie = request.data;
       setMovie(movie);
       return movie;
@@ -24,7 +24,7 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url("https://images.unsplash.com/photo-1549558549-415fe4c37b60?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1565&q=80")`,
+        backgroundImage: `url("https://wallpaperaccess.com/full/30100.jpg")`,
         backgroundPosition: "center center",
       }}
     >
