@@ -10,9 +10,9 @@ function HomeScreen() {
       {/* Nav */}
       <Nav />
       {/* Banner */}
-      <Banner></Banner>
+      <Banner />
       {/* Row */}
-      <Row></Row>
+      <Row />
     </div>
   );
 }

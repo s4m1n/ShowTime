@@ -5,6 +5,7 @@
   height: 70px;
   background: #f4f4f4;
   mix-blend-mode: hard-light;
+  z-index: 1;
 }
 
 .nav__netflix__white {
