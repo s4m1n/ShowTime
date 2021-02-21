@@ -6,6 +6,7 @@ import Banner from "./Banner";
 import SearchedMovies from "./SearchedMovies";
 import requests from "../api/Requests";
 import axios from "../api/axios";
+import Footer from "./Footer/Footer";
 
 function HomeScreen() {
   const [searchValue, setSearchValue] = useState("");
@@ -37,6 +38,7 @@ function HomeScreen() {
       <Row title="TV Shows" fetchUrl={requests.fetchTvShows} />
       <Row title="Released in 2021" fetchUrl={requests.fetchNewIn2021} />
       <Row title="Newly Released" fetchUrl={requests.fetchNewlyRealeased} />
+      <Footer />
     </div>
   );
 }

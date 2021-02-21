@@ -1,0 +1,101 @@
+.footer {
+  height: 187px;
+  margin-left: 57px;
+  margin-top: 33.44px;
+  margin-right: 59px;
+  margin-bottom: 60px;
+}
+
+.social__media {
+  display: flex;
+}
+
+.facebook {
+  margin-left: 3px;
+  margin-bottom: 21.29px;
+  margin-right: 23px;
+}
+
+.instagram {
+  margin-right: 21px;
+}
+
+.twitter {
+  margin-right: 22.74px;
+}
+
+.audio__help {
+  display: flex;
+}
+
+.audio__desc {
+  height: 17px;
+  margin-left: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #0b0303;
+}
+
+.help__center {
+  height: 17px;
+  margin-left: 140px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #0b0303;
+}
+
+.jobs__terms {
+  display: flex;
+}
+
+.jobs {
+  height: 17px;
+  margin-left: 2px;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0b0303;
+}
+
+.terms {
+  height: 17px;
+  margin-left: 225px;
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0b0303;
+}
+
+.service__code {
+  width: 92px;
+  height: 30px;
+  margin-top: 26px;
+  margin-left: 4px;
+  border: 1px solid #0b0303;
+  box-sizing: border-box;
+}
+
+.service {
+  height: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 8px;
+  margin-top: 6px;
+  color: #0b0303;
+}
+
+.trademark {
+  margin-top: 14px;
+}

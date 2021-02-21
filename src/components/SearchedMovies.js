@@ -13,8 +13,6 @@ function SearchedMovies({ title, movies }) {
             src={`${movie.Poster}`}
             alt=""
           />
-
-          // <h1>{movie.name}</h1>
         ))}
       </div>
     </div>
