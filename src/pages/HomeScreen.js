@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./HomeScreen.css";
-import Nav from "./Nav";
-import Row from "./Row";
-import Banner from "./Banner";
-import SearchedMovies from "./SearchedMovies";
+import Nav from "../components/Nav/Nav";
+import MovieList from "../components/MovieList";
+import Banner from "../components/Banner";
+import SearchedMovies from "../components/SearchedMovies";
 import requests from "../api/Requests";
 import axios from "../api/axios";
-import Footer from "./Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 function HomeScreen() {
   const [searchValue, setSearchValue] = useState("");
@@ -34,10 +34,13 @@ function HomeScreen() {
       ) : (
         <Banner />
       )}
-      <Row title="Movies" fetchUrl={requests.fetchMovies} />
-      <Row title="TV Shows" fetchUrl={requests.fetchTvShows} />
-      <Row title="Released in 2021" fetchUrl={requests.fetchNewIn2021} />
-      <Row title="Newly Released" fetchUrl={requests.fetchNewlyRealeased} />
+      <MovieList title="Movies" fetchUrl={requests.fetchMovies} />
+      <MovieList title="TV Shows" fetchUrl={requests.fetchTvShows} />
+      <MovieList title="Released in 2021" fetchUrl={requests.fetchNewIn2021} />
+      <MovieList
+        title="Newly Released"
+        fetchUrl={requests.fetchNewlyRealeased}
+      />
       <Footer />
     </div>
   );

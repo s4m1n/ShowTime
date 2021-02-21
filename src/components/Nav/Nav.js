@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
-import Search from "./Search";
+import Search from "../Search";
 
 function Nav({ searchValue, setSearchValue }) {
   const [show, handleShow] = useState(false);
