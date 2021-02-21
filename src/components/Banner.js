@@ -101,7 +101,10 @@ function Banner() {
         </svg>
         <div className="banner__release">Watch the season finale now</div>
         <h1 className="banner__description">
-          {truncate(`${movie.Plot}`, 150)}
+          {truncate(
+            `Every horror sequel has its own set of rules. Can this new generation of teens survive long enough to figureout theirs?`,
+            150
+          )}
         </h1>
         <div className="banner__buttons">
           <div className="banner__button__play">

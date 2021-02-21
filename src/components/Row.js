@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Row.css";
 import axios from "../api/axios";
 
-function Row({ title, fetchUrl }) {
+function Row({ title, fetchUrl, searches }) {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -15,7 +15,6 @@ function Row({ title, fetchUrl }) {
     fetchData();
   }, [fetchUrl]);
 
-  console.log(movies);
   return (
     <div className="row">
       <h2 className="title">{title}</h2>
