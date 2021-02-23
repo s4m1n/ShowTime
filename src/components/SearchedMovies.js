@@ -9,7 +9,7 @@ function SearchedMovies({ title, movies }) {
         {movies.map((movie) => (
           <img
             className="row__poster"
-            key={movie.id}
+            key={movie}
             src={`${movie.Poster}`}
             alt=""
           />

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Row.css";
+import "./MovieList.css";
 import axios from "../api/axios";
 
-function Row({ title, fetchUrl, searches }) {
+function MovieList({ title, fetchUrl, favouriteComponent }) {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -20,17 +20,23 @@ function Row({ title, fetchUrl, searches }) {
       <h2 className="title">{title}</h2>
       <div className="row__posters">
         {movies.map((movie) => (
-          <img
-            className="row__poster"
-            key={movie.id}
-            src={`${movie.Poster}`}
-            alt=""
-          />
-          // <h1>{movie.name}</h1>
+          <>
+            <div className="row__poster">
+              <div className="favourite">
+                <favourite-component />
+              </div>
+              <img
+                className="poster-img"
+                key={movie}
+                src={`${movie.Poster}`}
+                alt=""
+              />
+            </div>
+          </>
         ))}
       </div>
     </div>
   );
 }
 
-export default Row;
+export default MovieList;

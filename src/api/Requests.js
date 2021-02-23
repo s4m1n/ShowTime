@@ -1,9 +1,9 @@
-const API_KEY = "thewdb";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const requests = {
-  fetchMovie: `?s=stranger things&apikey=${API_KEY}`,
-  fetchMovies: `?s=harry&apikey=${API_KEY}`,
-  fetchTvShows: `?s=star&apikey=${API_KEY}`,
+  fetchMovie: `?s=home alone&apikey=${API_KEY}`,
+  fetchMovies: `?s=dark&apikey=${API_KEY}`,
+  fetchTvShows: `?s=suits&apikey=${API_KEY}`,
   fetchNewIn2021: `?s=avengers&apikey=${API_KEY}`,
   fetchNewlyRealeased: `?s=suits&apikey=${API_KEY}`,
 };
