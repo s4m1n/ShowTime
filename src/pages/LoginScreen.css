@@ -1,0 +1,171 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url("http://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: transparent;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+.nav__netflix__white {
+  background: #fff;
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo__links {
+  display: flex;
+}
+
+.nav__logo {
+  margin-top: 13px;
+  margin-left: 48px;
+}
+
+.nav__link {
+  /* width: 41px; */
+  height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  text-decoration: none;
+  align-items: flex-end;
+
+  color: #0b0303;
+}
+
+.home {
+  margin-left: 50px;
+  margin-top: 21px;
+  margin-right: 35px;
+}
+
+.red__line {
+  margin-bottom: -2px;
+  background: #ed2517;
+  margin-left: -46px;
+  width: 49px;
+  height: 2px;
+}
+
+.movies {
+  margin-top: 21px;
+  margin-right: 35px;
+}
+
+.shows {
+  margin-top: 21px;
+  margin-right: 35px;
+}
+
+.new {
+  margin-top: 21px;
+  margin-right: 35px;
+}
+
+.mylist {
+  margin-top: 21px;
+  margin-right: 35px;
+}
+
+.nav__end__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification {
+  margin-top: 19px;
+  margin-right: 20.29px;
+}
+
+.notification__logo {
+  width: 28px;
+  height: 32px;
+}
+
+.user__logo {
+  margin-top: 17.88px;
+  margin-right: 2.58px;
+}
+
+.profile {
+  width: 41px;
+  height: 14px;
+  margin-top: 27px;
+  margin-right: 7.54px;
+  /* font-family: SF Pro Display; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #0b0303;
+}
+
+.profile__dropdown {
+  margin-top: 21.39px;
+  margin-right: 48.79px;
+}
+
+.down__arrow {
+  width: 10.67px;
+  height: 5.39px;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

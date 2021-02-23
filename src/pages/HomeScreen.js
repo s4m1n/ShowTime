@@ -16,9 +16,7 @@ function HomeScreen() {
   const [movies, setMovies] = useState([]);
 
   const getMovieByTitle = async (searchValue) => {
-    const request = await axios.get(
-      `?s=${searchValue}&apikey=${process.env.REACT_APP_API_KEY}`
-    );
+    const request = await axios.get(`?s=${searchValue}&apikey=${API_KEY}`);
     const movies = request.data.Search;
     if (movies) {
       setMovies(movies);
