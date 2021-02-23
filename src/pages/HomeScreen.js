@@ -9,6 +9,8 @@ import axios from "../api/axios";
 import Footer from "../components/Footer/Footer";
 import AddFavourites from "../components/AddFavourites";
 
+const API_KEY = process.env.REACT_APP_API_KEY;
+
 function HomeScreen() {
   const [searchValue, setSearchValue] = useState("");
   const [movies, setMovies] = useState([]);

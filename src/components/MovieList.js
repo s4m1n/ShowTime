@@ -23,7 +23,7 @@ function MovieList({ title, fetchUrl, favouriteComponent }) {
           <>
             <div className="row__poster">
               <div className="favourite">
-                <favourite-component />
+                <favouriteComponent />
               </div>
               <img
                 className="poster-img"
